@@ -11,7 +11,6 @@
     padding: 20px 20px;
     padding-bottom: 110px;
     display: flex;
-    
 }
 
 .logo {
@@ -533,8 +532,7 @@ hr {
 
 .design-contents {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr; 
 }
 
 .design-article {
@@ -847,10 +845,12 @@ hr {
 /* footer hissəsi başladı */
 
 #footer {
-    background: url(../img/footer-background.webp);
+    background: url(../img/footer-background.webp) no-repeat;
+    background-position-x: 50%;
     background-size: cover;
     padding: 60px 0px;
-    height: 600px;
+    height: 1080px;
+    margin-top: 50px;
 }
 
 .footer-heading {
