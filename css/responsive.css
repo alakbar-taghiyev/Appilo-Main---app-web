@@ -339,10 +339,13 @@
     }
     
     .footer-tabs {
-        grid-template-columns: 1fr;
         padding-bottom: 70px;
     }
     
+    #footer {
+        height: 820px;
+    }
+
     .copyRight {
         display: block;
         font-size: 14px;
@@ -353,11 +356,328 @@
     }
 }
 
-
 @media (min-width:768px) and (max-width:992px) {
+    .menu {
+        display: none;
+    }
 
+    .download-button {
+        justify-content: center;
+    }
+
+    .navbar-main-content p {
+        width: 40%;
+    }
+    
+    #header {
+        background-position-x: 50%;
+        background-position-y: 95%;
+    }
+    
+    .container {
+        width: 95%;
+    }
+    
+    .logo {
+        margin: 10px;
+    }
+    
+    .download-button {
+        margin: 10px;
+    }
+    
+    .navbar-main-contents {
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    .navbar-main-picture img {
+        top: 16%;
+        left: -81%;
+        width: 189%;
+    }
+    
+    .statics{
+    
+        gap: 20px;
+    }
+     
+    .work-picture {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #app-work {
+        background-position-x: 50%;
+    }
+    
+    .work-picture .jessica {
+        height: 95%;
+        left: 78px;
+        width: 67%;
+    }
+
+    .content-items .col-2 {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lines {
+        right: 47%;
+        top: 50%;
+    }
+    
+    .data-contents {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .data-picture img {
+        width: 100%;
+    }
+    
+    .responsive-picture img {
+        width: 100%;
+    }
+    
+    .tutorial-content {
+        left: 29%;
+    }
+    
+    .phone-background {
+        top: 20%;
+        right: 34%;
+        width: 32%;
+        height: 80%;
+    }
+    
+    .left {
+        left: 46%;
+    }
+    
+    .right {
+        right: 43%;
+    }
+    
+    .design-pictures {
+        height: 300px;
+    }
+    
+    #reasonable_price {
+        overflow: hidden;
+    }
+    .price-accounts {
+        grid-template-columns: ;
+        gap: 40px;
+    }
+
+    .price-account {
+        padding: 30px 0px;
+    }
+
+    .price-account button {
+        margin-left: 26px;
+    }
+
+    .great_width {
+        height: 93%;
+    }
+
+    .img-box img {
+        width: 100%;
+    }
+
+    #latest_news {
+        overflow: hidden;
+    }
+    
+    .news-content-display {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 103%
+    }
+    
+    .news-content .text-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    
+    .footer-tabs {
+        padding-bottom: 70px;
+    }
+    
+    #footer {
+        height: 725px;
+    }
+
+    .copyRight {
+        display: block;
+        font-size: 14px;
+    }
+    
+    #header .col-1 {
+        width: 40%;
+    }
 }
 
 @media (min-width:992px) and (max-width:1200px) {
+    .menu {
+        display: none;
+    }
 
+    .download-button {
+        justify-content: center;
+    }
+
+    .navbar-main-content p {
+        width: 40%;
+    }
+    
+    #header {
+        background-position-x: 50%;
+        background-position-y: 95%;
+    }
+    
+    .container {
+        width: 95%;
+    }
+    
+    .logo {
+        margin: 10px;
+    }
+    
+    .download-button {
+        margin: 10px;
+    }
+    
+    .navbar-main-contents {
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    .navbar-main-picture img {
+        top: -3%;
+        left: -81%;
+        width: 189%;
+    }
+    
+    .statics{
+    
+        gap: 20px;
+    }
+     
+    .work-picture {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #app-work {
+        background-position-x: 50%;
+    }
+    
+    .work-picture .jessica {
+        height: 95%;
+        left: 108px;
+        width: 60%;
+    }
+
+    .content-items .col-2 {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lines {
+        right: 47%;
+        top: 50%;
+    }
+    
+    .data-contents {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .data-picture img {
+        width: 100%;
+    }
+    
+    .responsive-picture img {
+        width: 100%;
+    }
+    
+    .tutorial-content {
+        left: 33%;
+    }
+    
+    .phone-background {
+        top: 19%;
+        right: 37%;
+        width: 26%;
+        height: 81%;
+    }
+    
+    .left {
+        left: 46%;
+    }
+    
+    .right {
+        right: 43%;
+    }
+    
+    .design-pictures {
+        height: 300px;
+        width: 88%;
+    }
+    
+    #reasonable_price {
+        overflow: hidden;
+    }
+
+    .price-accounts {
+        width: 85%;
+    }
+   
+    .great_width {
+        height: 93%;
+    }
+
+    .img-box img {
+        width: 100%;
+    }
+
+    #latest_news {
+        overflow: hidden;
+    }
+    
+    .news-content-display {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 103%
+    }
+    
+    .news-content .text-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+    
+    .footer-tabs {
+        padding-bottom: 70px;
+    }
+    
+    #footer {
+        height: 725px;
+    }
+    
+    #header .col-1 {
+        width: 40%;
+    }
 }

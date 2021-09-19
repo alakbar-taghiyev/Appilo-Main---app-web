@@ -848,8 +848,7 @@ hr {
     background: url(../img/footer-background.webp) no-repeat;
     background-position-x: 50%;
     background-size: cover;
-    padding: 60px 0px;
-    height: 1080px;
+    padding-top: 60px;
     margin-top: 50px;
 }
 
