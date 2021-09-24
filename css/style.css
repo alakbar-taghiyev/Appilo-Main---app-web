@@ -60,6 +60,30 @@
     height: 100%;
 }
 
+
+#nav-toggle {
+    position: absolute;
+    top: -160px;
+}
+
+
+.icon-burger {
+    display: none;
+    position: absolute;
+    right: -80%;
+    top: 66%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.icon-burger .fas {
+    font-size: 26px;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 7px;
+    border-radius: 8px;
+}
+
 /* navbar hissəsi bitdi */
 
 /* navbar-main hissəsi başladı */
@@ -758,6 +782,10 @@ hr {
     position: absolute;
     left: 47%;
     top: 121px; 
+}
+
+.special-hero{
+    display: none;
 }
 
 .client-content h1 {
