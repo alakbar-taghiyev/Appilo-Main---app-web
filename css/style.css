@@ -60,12 +60,10 @@
     height: 100%;
 }
 
-
 #nav-toggle {
     position: absolute;
     top: -160px;
 }
-
 
 .icon-burger {
     display: none;
